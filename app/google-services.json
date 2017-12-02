@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "656241754741",
+    "firebase_url": "https://buyfromus-e5c2a.firebaseio.com",
+    "project_id": "buyfromus-e5c2a",
+    "storage_bucket": "buyfromus-e5c2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656241754741:android:4ede014e63ec314c",
+        "android_client_info": {
+          "package_name": "com.example.chhun.buyfromus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656241754741-7or5o4kvnkrpdkkm9e8akb9inpst41r6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chhun.buyfromus",
+            "certificate_hash": "316f17e5ed568db404870dc5c08e84d57cf9d134"
+          }
+        },
+        {
+          "client_id": "656241754741-gsm7s8365b3q2ktd847g6vrqdifaml1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGhUZxsoCbqCkReRgxZo-oIcJujjQwgHU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656241754741-gsm7s8365b3q2ktd847g6vrqdifaml1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
