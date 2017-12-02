@@ -1,39 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.chhun.buyfromus.PINVerification">
+    tools:context="com.example.chhun.buyfromus.PINVerification"
+    android:background="@drawable/app_background">
 
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+        android:text="Please enter your verification code on your message"
+        android:textColor="@android:color/white"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="168dp"
-        android:layout_marginTop="153dp"
-        android:text="TextView" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="53dp"
+        tools:layout_editor_absoluteY="302dp"
+        tools:layout_editor_absoluteX="30dp" />
 
     <EditText
         android:id="@+id/p_v_pin_input"
         android:layout_width="wrap_content"
+        android:hint="Enter verification code"
+        android:textColorHint="@android:color/white"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="number"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteY="234dp"
+        tools:layout_editor_absoluteX="85dp" />
 
     <Button
         android:id="@+id/p_v_submit_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/textView2"
-        android:layout_below="@+id/p_v_pin_input"
-        android:layout_marginTop="33dp"
-        android:text="Button"
-        android:onClick="submitPin"/>
-</RelativeLayout>
+        android:text="Verify"
+        android:textColor="@android:color/holo_green_dark"
+        android:onClick="submitPin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/p_v_pin_input"
+        tools:layout_editor_absoluteY="346dp"
+        tools:layout_editor_absoluteX="148dp" />
+</android.support.constraint.ConstraintLayout>
