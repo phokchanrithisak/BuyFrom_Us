@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".CategoryList" />
-        <activity android:name=".PurchaseUnit"></activity>
+        <activity android:name=".PurchaseUnit" />
+        <activity android:name=".PhoneNumber" />
+        <activity android:name=".PINVerification"></activity>
     </application>
 
 </manifest>

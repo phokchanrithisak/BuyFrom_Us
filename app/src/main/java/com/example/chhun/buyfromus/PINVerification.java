@@ -1,0 +1,26 @@
+package com.example.chhun.buyfromus;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+
+public class PINVerification extends AppCompatActivity {
+
+    EditText p_v_pin_input;
+    int pin_value;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_pinverification);
+
+        p_v_pin_input = (EditText) findViewById(R.id.p_v_pin_input);
+    }
+    public void submitPin(View view) {
+        pin_value = Integer.parseInt((p_v_pin_input.toString()));
+        if (pin_value == 1234){
+
+        }
+    }
+}
