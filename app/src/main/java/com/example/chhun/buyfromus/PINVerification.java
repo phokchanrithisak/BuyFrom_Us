@@ -8,7 +8,7 @@ import android.widget.EditText;
 public class PINVerification extends AppCompatActivity {
 
     EditText p_v_pin_input;
-    int pin_value;
+    String pin_value;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,8 +18,9 @@ public class PINVerification extends AppCompatActivity {
         p_v_pin_input = (EditText) findViewById(R.id.p_v_pin_input);
     }
     public void submitPin(View view) {
-        pin_value = Integer.parseInt((p_v_pin_input.toString()));
-        if (pin_value == 1234){
+//        pin_value = Integer.parseInt((p_v_pin_input.toString()));
+        pin_value = p_v_pin_input.getText().toString();
+        if (pin_value.equals("321")){
 
         }
     }
