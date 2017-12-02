@@ -1,46 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.chhun.buyfromus.CategoryList">
+    tools:context="com.example.chhun.buyfromus.CategoryList"
+    android:background="#1E9907">
 
     <Button
         android:id="@+id/cat_list_btn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
+        android:layout_width="368dp"
+        android:layout_height="80dp"
+        android:onClick="goToCatList1"
+        android:text="SMART MEGA CONCERT CL"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="153dp"
-        android:layout_marginTop="46dp"
-        android:text="Button1"
-        android:onClick="goToCatList1"/>
+        android:layout_alignParentEnd="true"
+        tools:layout_editor_absoluteY="161dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
         android:id="@+id/cat_list_btn2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="368dp"
+        android:layout_height="80dp"
         android:layout_alignStart="@+id/cat_list_btn1"
         android:layout_below="@+id/cat_list_btn1"
-        android:layout_marginTop="29dp"
-        android:text="Button2" />
+        android:text="SMART MEGA CONCERT K-POP SUPERSTAR"
+        tools:layout_editor_absoluteY="241dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
         android:id="@+id/cat_list_btn3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/cat_list_btn2"
+        android:layout_width="368dp"
+        android:layout_height="80dp"
+        android:text="DEMI LOVATO: DEMI WORLD TOUR"
         android:layout_below="@+id/cat_list_btn2"
-        android:layout_marginTop="22dp"
-        android:text="Button3" />
+        android:layout_alignStart="@+id/cat_list_btn2"
+        tools:layout_editor_absoluteY="321dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
         android:id="@+id/cat_list_btn4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="368dp"
+        android:layout_height="80dp"
         android:layout_alignStart="@+id/cat_list_btn3"
         android:layout_below="@+id/cat_list_btn3"
-        android:layout_marginTop="24dp"
-        android:text="Button4" />
-</RelativeLayout>
+        android:text="SMART MEGA CONCERT 2014"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/SmartTitle"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-17dp" />
+
+</android.support.constraint.ConstraintLayout>
