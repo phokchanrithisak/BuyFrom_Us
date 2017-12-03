@@ -24,7 +24,7 @@
         android:id="@+id/Description"
         android:layout_width="359dp"
         android:layout_height="wrap_content"
-        android:text="You are going to purchase Smart Mega Concert CL which is hold on December 09 2017 at Koh Pich. To meet your favorite Pop-star please purchase the ticket"
+        android:text="You are going to purchase Smart Mega Concert CL ticket which is hold on December 09 2017 at Koh Pich. To meet your favorite Pop-star please purchase the ticket"
         android:textColor="#FFFFFF"
         android:textSize="20dp"
         tools:layout_editor_absoluteX="13dp"
@@ -42,8 +42,7 @@
         tools:layout_editor_absoluteX="44dp"
         tools:layout_editor_absoluteY="247dp"
         android:layout_centerVertical="true"
-        android:layout_alignEnd="@+id/p_u_minus_btn"
-        android:layout_marginEnd="38dp" />
+        android:layout_toStartOf="@+id/p_u_minus_btn" />
 
     <TextView
         android:id="@+id/total_price"
@@ -106,4 +105,13 @@
         android:layout_marginTop="16dp"
         android:layout_below="@+id/p_u_plus_btn"
         android:layout_alignStart="@+id/p_u_plus_btn" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:text="Total Price: "
+        android:layout_below="@+id/Description"
+        android:layout_alignEnd="@+id/p_u_plus_btn" />
 </RelativeLayout>
